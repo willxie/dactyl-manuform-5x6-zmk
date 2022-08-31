@@ -50,13 +50,13 @@
                 &kp B  &mo LWR   &kp Z  &kp X  &kp C  &kp V                 &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &mo LWR
                                &kp G &kp B                                              &kp LBKT  &kp RBKT
                                       &kp SPACE &kp G &kp B             &kp RSHFT &kp BSPC &kp SPACE
-                                             &kp T &mo LWR                &mo LWR &kp RET
+                                             &kp T &tog RSE             &tog RSE &kp RET
             >;
         };
 
         adjust_layer {
             bindings = <
-                &tog DEFAULT &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none            &none       &none  &none &none &none &tog DEFAULT
+                &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none            &none       &none  &none &none &none &none
                 &none &none        &out OUT_BLE &none        &reset       &none            &none       &reset &none &none &none &none
                 &none &none        &out OUT_USB &none        &none        &none            &none       &none  &none &none &none &none
                 &tog RSE &none     &out OUT_TOG &bt BT_CLR   &none        &bootloader      &bootloader &none  &none &none &none &tog RSE
