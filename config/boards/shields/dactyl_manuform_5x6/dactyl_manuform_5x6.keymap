@@ -45,11 +45,11 @@
         raise_layer {
             bindings = <
                 &gresc &kp TAB   &kp N1 &kp N2 &kp N3 &kp N4                &kp N6 &kp N7 &kp N8    &kp N9  &kp N0   &kp EQUAL
-                &kp N5 &kp LCTRL &kp Q  &kp W  &kp E  &kp R                 &kp Y  &kp U  &kp I     &kp O   &kp P    &kp MINUS
+                &kp TAB &kp LCTRL &kp Q  &kp W  &kp E  &kp R                 &kp Y  &kp U  &kp I     &kp O   &kp P    &kp MINUS
                 &none  &kp LSHFT &kp A  &kp S  &kp D  &kp F                 &kp H  &kp J  &kp K     &kp L   &kp SEMI &mt RSHFT APOS
                 &none  &kp LCTRL &kp Z  &kp X  &kp C  &kp V                 &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &mo LWR
-                               &none &none                                                &kp LBKT  &kp RBKT
-                                      &kp B &kp SPACE &kp G             &kp RSHFT &kp BSPC &kp SPACE
+                               &none &kp N5 &kp LBKT  &kp RBKT
+                                       &kp SPACE &kp B &kp G             &kp RSHFT &kp BSPC &kp SPACE
                                              &kp T &tog RSE             &tog RSE &kp RET
             >;
         };
