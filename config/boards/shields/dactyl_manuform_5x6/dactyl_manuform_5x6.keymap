@@ -31,10 +31,10 @@
 
         lower_layer {
             bindings = <
-                &kp GRAVE &kp F1       &kp F2       &kp F3 &kp F4 &kp F5              &kp F6   &kp F7   &kp F8   &kp F9    &kp F10 &kp F11
-                &trans    &kp C_PREV   &kp C_NEXT   &kp C_PP   &trans &trans          &trans   &trans   &trans   &kp F11   &kp F12 &kp BSLH
-                &trans    &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans &trans          &kp LEFT &kp DOWN &kp UP   &kp RIGHT &trans  &trans
-                &trans    &kp C_BRI_DN &kp C_BRI_UP &trans     &trans &trans          &trans   &trans   &trans   &trans    &trans  &trans
+                &kp GRAVE &kp F1       &kp F2       &kp F3       &kp F4 &kp F5         &kp F6   &kp F7   &kp F8   &kp F9    &kp F10 &kp F11
+                &trans    &kp C_PP     &kp C_PREV   &kp C_NEXT   &trans &trans         &trans   &trans   &trans   &kp F11   &kp F12 &kp BSLH
+                &trans    &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &trans &trans         &kp LEFT &kp DOWN &kp UP   &kp RIGHT &trans  &trans
+                &trans    &trans       &kp C_BRI_DN &kp C_BRI_UP &trans &trans         &trans   &trans   &trans   &trans    &trans  &trans
                                        &kp END   &kp HOME                                               &trans   &trans
                                             &mo ADJ &trans &trans                      &trans &kp DEL &mo ADJ
                                                     &trans &trans                      &trans &trans
@@ -45,7 +45,7 @@
         raise_layer {
             bindings = <
                 &gresc   &kp N1    &kp N2 &kp N3 &kp N4 &kp N5                &kp N6 &kp N7 &kp N8    &kp N9  &kp N0   &kp EQUAL
-                &kp TAB  &kp LCTRL &kp Q  &kp W  &kp E  &kp R                 &kp Y  &kp U  &kp I     &kp O   &kp P    &kp MINUS
+                &kp TAB  &kp LALT  &kp Q  &kp W  &kp E  &kp R                 &kp Y  &kp U  &kp I     &kp O   &kp P    &kp MINUS
                 &kp Y    &kp LSHFT &kp A  &kp S  &kp D  &kp F                 &kp H  &kp J  &kp K     &kp L   &kp SEMI &mt RSHFT APOS
                 &kp U    &kp LCTRL &kp Z  &kp X  &kp C  &kp V                 &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &tog RSE
                                    &kp N  &kp M                                                  &kp LBKT  &kp RBKT
