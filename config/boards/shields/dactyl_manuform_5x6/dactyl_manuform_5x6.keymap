@@ -24,7 +24,7 @@
                 &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp G                    &kp H  &kp J  &kp K     &kp L   &kp SEMI &mt RSHFT APOS
                 &mo LWR   &kp Z  &kp X  &kp C  &kp V  &kp B                    &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &mo LWR
                                  &kp PG_DN &kp PG_UP                                         &kp LBKT  &kp RBKT
-                                    &mt LCMD SPACE &mt LCTRL BSPC &kp LSHFT    &kp RSHFT &kp BSPC &mt RCMD SPACE
+                                    &mt LCMD SPACE &mt LCTRL BSPC &kp LSHFT    &kp RSHFT &kp BSPC &kp SPACE
                                                    &mt LALT RET   &mo LWR      &mo LWR &kp RET
             >;
         };
