@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
-#define RSE 1
+define GAM 1
 #define LWR 2
 #define ADJ 3
 
@@ -29,8 +29,7 @@
             >;
         };
 
-        // Gaming
-        raise_layer {
+        gaming_layer {
             bindings = <
                 &gresc   &kp N1    &kp N2 &kp N3 &kp N4 &kp N5                &kp N6 &kp N7 &kp N8    &kp N9  &kp N0   &kp EQUAL
                 &kp TAB  &kp N6    &kp Q  &kp W  &kp E  &kp R                 &kp Y  &kp U  &kp I     &kp O   &kp P    &kp MINUS
@@ -38,7 +37,7 @@
                 &kp U    &kp LCTRL &kp Z  &kp X  &kp C  &kp V                 &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &mo LWR
                                    &kp N  &kp M                                                  &kp LBKT  &kp RBKT
                                           &kp SPACE &kp T &kp G               &kp RSHFT &kp BSPC &kp SPACE
-                                                 &kp B   &kp LALT             &tog RSE &kp RET
+                                                 &kp B   &kp LALT             &tog GAM &kp RET
             >;
         };
 
@@ -59,7 +58,7 @@
                 &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4           &none       &none  &none &none &none &none
                 &none    &none     &out OUT_BLE &none        &reset       &none                  &none       &reset &none &none &none &none
                 &none    &none     &out OUT_USB &none        &none        &none                  &none       &none  &none &none &none &none
-                &tog RSE &none     &none        &bt BT_CLR   &none        &bootloader            &bootloader &none  &none &none &none &none
+                &tog GAM &none     &none        &bt BT_CLR   &none        &bootloader            &bootloader &none  &none &none &none &none
                                    &none        &none                                                               &none &none
                                                 &none        &none        &none                  &none       &none  &none
                                                              &none        &none                  &none       &none
