@@ -29,15 +29,16 @@ define GAM 1
             >;
         };
 
-        gaming_layer {
+        // GAM gaming layer
+        raise_layer {
             bindings = <
                 &gresc   &kp N1    &kp N2 &kp N3 &kp N4 &kp N5                &kp N6 &kp N7 &kp N8    &kp N9  &kp N0   &kp EQUAL
                 &kp TAB  &kp N6    &kp Q  &kp W  &kp E  &kp R                 &kp Y  &kp U  &kp I     &kp O   &kp P    &kp MINUS
                 &kp Y    &kp LSHFT &kp A  &kp S  &kp D  &kp F                 &kp H  &kp J  &kp K     &kp L   &kp SEMI &mt RSHFT APOS
-                &kp U    &kp LCTRL &kp Z  &kp X  &kp C  &kp V                 &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &mo LWR
+                &kp U    &kp LCTRL &kp Z  &kp X  &kp C  &kp V                 &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &tog GAM
                                    &kp N  &kp M                                                  &kp LBKT  &kp RBKT
                                           &kp SPACE &kp T &kp G               &kp RSHFT &kp BSPC &kp SPACE
-                                                 &kp B   &kp LALT             &tog GAM &kp RET
+                                                 &kp B   &kp LALT             &mo LWR &kp RET
             >;
         };
 
