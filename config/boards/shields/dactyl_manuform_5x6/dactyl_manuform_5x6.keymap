@@ -24,7 +24,7 @@
                 &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp G                    &kp H  &kp J  &kp K     &kp L   &kp SEMI &mt RSHFT APOS
                 &kp GLOBE &kp Z  &kp X  &kp C  &kp V  &kp B                    &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &mo LWR
                                  &kp PG_DN &kp PG_UP                                         &kp LBKT  &kp RBKT
-                                    &mt LCMD SPACE &mt LCTRL BSPC &kp LSHFT    &kp RSHFT &kp BSPC &kp SPACE
+                                    &mt LCMD SPACE &mt LCTRL BSPC &kp GLOBE    &kp RSHFT &kp BSPC &kp SPACE
                                                    &mt LALT RET   &mo LWR      &mo LWR &kp RET
             >;
         };
@@ -56,7 +56,7 @@
         adjust_layer {
             bindings = <
                 &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4           &none       &none  &none &none &none &none
-                &none    &none     &out OUT_BLE &none        &reset       &none                  &none       &reset &none &none &none &none
+                &none    &none     &out OUT_BLE &none        &sys_reset   &none                  &none       &sys_reset &none &none &none &none
                 &none    &none     &out OUT_USB &none        &none        &none                  &none       &none  &none &none &none &none
                 &tog GAM &none     &none        &bt BT_CLR   &none        &bootloader            &bootloader &none  &none &none &none &none
                                    &none        &none                                                               &none &none
